@@ -6,7 +6,7 @@ const Menu = () => {
 
     return (
         <>
-        <h1 className="pageTitle">Menu</h1>
+        <h1 className="pageTitle">Welcome</h1>
         <div className="MenuSection">
             <button className="button" onClick={() => navigate("/erc721_ux/ChainInfo")}>Chain Info</button>
             <button className="button" onClick={() => navigate("/erc721_ux/fakeBayc")}>fakeBayc</button>
